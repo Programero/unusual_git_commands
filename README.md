@@ -12,6 +12,11 @@ Reference: https://medium.com/mindorks/use-of-git-reset-git-revert-git-checkout-
   Creates a new commit from a specified commit by inverting it. Hence, adds a new commit history to the project, but it doesn’t modify the existing one.
   
   git reset --mixed(default) --hard --soft 
+### Delete the most recent commit, keeping the work you've done:
+git reset --soft HEAD~1
+  
+### Delete the most recent commit, destroying the work you've done:
+git reset --hard HEAD~1
   
   git rebase --interactive (used to squash commits and make history look better)
   
