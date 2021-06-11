@@ -17,6 +17,11 @@ git reset --soft HEAD~1
   
 ### Delete the most recent commit, destroying the work you've done:
 git reset --hard HEAD~1
-  
+
+### Squashing Commits
   git rebase --interactive (used to squash commits and make history look better)
+  
+  
+### The working directory and the staging area/index is shared between branches
+  If we make changes in the working directory/staging area of one branch and then we checkout to some other branch without commiting, then those changes would still be visible in the other branch also. But commit history is not shared 
   
