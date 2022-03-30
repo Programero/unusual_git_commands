@@ -1,6 +1,7 @@
 # unusual_git_commands
 
 Reference: https://medium.com/mindorks/use-of-git-reset-git-revert-git-checkout-squash-commit-2b721ca2d2d3
+### git rebase
 
 ### Undo uncommitted changes using git checkout --filename
   git checkout --filename will undo the changes 
